@@ -49,6 +49,7 @@ Router Training
 bash scripts/mdpo_router.sh --model_name_or_path "/root/safe-rlhf/dataroot/models/alpaca-7b" --output_dir output/router --offload optimizer
 ```
 **Step 5. Evaluation**
+
 Generate responses for our MidPO：
 ```
 python3 -m safe_rlhf.evaluate.generate --output_dir dataroot/results
