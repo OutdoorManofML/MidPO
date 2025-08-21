@@ -1,7 +1,7 @@
 import torch
 import json
 import pandas as pd
-from tqdm import tqdm  # 导入 tqdm 用于进度条显示
+from tqdm import tqdm
 from transformers import AutoTokenizer
 from safe_rlhf.models import AutoModelForScore
 from .input_normalize import PROMPT_INPUT
