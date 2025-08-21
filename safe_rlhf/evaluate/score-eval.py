@@ -10,7 +10,7 @@ from safe_rlhf.utils import (
     seed_everything,
 )
 seed_everything(123)
-json_file_path = "/root/safe-rlhf/dataroot/results/Error Analysis/Wildguard-MidPO-0.7.json"
+json_file_path = "/root/safe-rlhf/dataroot/results/MidPO.json"
 
 with open(json_file_path, "r", encoding="utf-8") as file:
     data = json.load(file)
